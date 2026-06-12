@@ -15,7 +15,7 @@
 
 ## Overview
 
-**Auto Approve Bot** is a high-performance Telegram bot for automated join request management. Built on Pyrofork's async MTProto stack with a Motor-powered MongoDB backend — handles thousands of requests with zero manual effort.
+**Auto Approve Bot** is a high-performance Telegram bot for automated join request management. handles thousands of requests with zero manual effort.
 
 ---
 
