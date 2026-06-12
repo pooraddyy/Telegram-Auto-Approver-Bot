@@ -1,0 +1,25 @@
+services:
+  - type: worker
+    name: auto-approve-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: TOKEN
+        sync: false
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: DB_URL
+        sync: false
+      - key: DB_NAME
+        value: AutoApproveBot
+      - key: OWNER_ID
+        sync: false
+      - key: START_PHOTOS
+        sync: false
+      - key: PING_PHOTO
+        sync: false
+      - key: PORT
+        value: "8080"
